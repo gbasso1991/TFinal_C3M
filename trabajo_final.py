@@ -81,7 +81,7 @@ plt.title('Ajuste lineal a bajo campo',fontsize=14)
 
 plt.ylabel('$\mu$ $(Am^2)$')
 plt.xlabel('$H$ $(kA/m)$')
-plt.savefig('TF_Ajuste_LF.png',dpi=300)
+#plt.savefig('TF_Ajuste_LF.png',dpi=300)
 plt.show()
 
 print('''Pendiente: 
@@ -170,7 +170,7 @@ plt.grid()
 plt.ylabel('$\mu$ $(Am^2)$')
 plt.xlabel('$H$ $(A/m)$')
 plt.title('Ajuste no lineal para altos campos',fontsize=14)
-plt.savefig('TF_Ajuste_HF12.png',dpi=300)
+#plt.savefig('TF_Ajuste_HF12.png',dpi=300)
 plt.show()
 
 print(''' 
@@ -216,7 +216,7 @@ plt.grid()
 plt.ylabel('$\mu$ $(Am^2)$')
 plt.xlabel('$H$ $(A/m)$')
 #plt.title('Ajuste no lineal para altos campos',fontsize=14)
-plt.savefig('TF_Ajuste_HF34.png',dpi=300)
+#plt.savefig('TF_Ajuste_HF34.png',dpi=300)
 plt.show()
 print('''
 a3= {:.4e} m/A
@@ -290,7 +290,7 @@ ax2.grid()
 plt.ylabel('$\mu$ $(Am^2)$')
 plt.xlabel('$H$ $(A/m)$')
 plt.suptitle('Ajuste no lineal para altos campos',fontsize=14)
-plt.savefig('TF_Ajuste_HF.png',dpi=300)
+#plt.savefig('TF_Ajuste_HF.png',dpi=300)
 plt.show()
 
 
