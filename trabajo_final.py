@@ -2,7 +2,7 @@
 import numpy as np
 from numpy import pi
 import matplotlib.pyplot as plt
-from numpy.lib.nanfunctions import _remove_nan_1d
+
 #%%
 data = np.loadtxt('datos_tema_6.dat',skiprows=1)
 tiempo = data[:,0] #[s]
